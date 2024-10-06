@@ -1,0 +1,547 @@
+
+nav{
+    border-bottom: 2px rgba(139, 161, 173) solid;
+    margin: 0px 0px 50px 0;
+    padding: 0 0px 50px 0;
+    border-collapse: collapse;
+}
+.logo {
+    margin: 10px 0px 0px 10px;
+    width: 3%;
+    height: inherit;
+    float: left;
+    padding-right: 20px;
+}
+
+.accueil{
+    float:left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight:bolder;
+    margin-left: 10px;
+    margin-top: -10px;  
+    padding-inline: 20px;  
+    padding-top: 20px;
+    padding-bottom: 19px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right:0;
+    border: 2px rgba(139, 161, 173) solid ;    
+    border-collapse: collapse;
+    border-bottom: 0cap;
+    border-top: 0cap;
+}
+
+
+.middle_accueil {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:lighter;
+    color: rgb(44, 77, 95, 0.5);
+    float:left;
+    margin-left: -2px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px rgba(139, 161, 173) solid;
+    border-collapse: collapse;
+}
+
+.navigation_buttons {
+    color: rgb(44, 77, 95, 0.5);
+    float:right;
+    margin-left: auto;
+    margin-top: -10px;  
+    padding-inline: 20px;  
+    padding-top: 20px;
+    padding-bottom: 17px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right:0;
+    border-left: 2px rgba(85, 119, 138, 0.5) solid;
+    border-bottom: 0cap;
+    border-top: 0cap;
+}
+.btn {
+    background-color:inherit ; /* Blue background */
+    border: none; /* Remove borders */
+    color:rgb(44, 77, 95, 0.5); /* White text */
+    /*padding: 12px 16px; /* Some padding */
+    font-size: 20px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(44, 77, 95);
+    color: rgb(176, 203, 218);
+  }
+  
+
+
+body {
+    background-image: url("https://t3.ftcdn.net/jpg/03/39/06/02/360_F_339060225_w8ob8LjMJzPdEqD9UFxbE6ibcKx8dFrP.jpg");
+    background-size: cover;
+
+}
+
+.block_left {    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 20%;
+    height: inherit;
+    overflow: auto;
+    float: left;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 10%;
+}
+.avatar {
+    width: 40%;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.name {
+    width: 60%;
+    float: inline-start;
+}
+.post {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    border-bottom: 2px rgba(139, 161, 173) solid ;
+    float: inline-start;
+}
+
+.chapter_line {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-bottom: 2px rgba(139, 161, 173) solid ;
+    float: left;
+}
+
+
+.competense_photo {
+    width: 99%;
+    height: 154px;
+    float: inline-start;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+}
+
+.akk_photo{
+    border-radius: 50%;
+    margin: 10px 20px 20px 0px;
+    width: 40px;
+    height: inherit;
+    float: right;
+}
+
+.left_desc {
+    text-align: left;
+    background-color: rgb(133, 174, 178, 0.3);
+    width: 98%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 2px rgba(139, 161, 173) solid ;    
+}
+
+.nonclick_icon {
+    background-color:inherit ; /* Blue background */
+    border: none; /* Remove borders */
+    color:rgb(44, 77, 95, 0.5); /* White text */
+    /*padding: 12px 16px; /* Some padding */
+    font-size: 20px; /* Set a font size */
+    float: left;
+}
+
+.solid_fullstring_block{
+    margin-top: 30px;
+    padding-bottom: 2px;
+    width: 100%;
+    text-align: center;
+}
+ .phone {
+    padding-left: 20px;
+ }
+
+ .logo_phone {
+    float: left;
+    width: 20%;
+    height: inherit;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 90%; /* Full width */
+    /*padding: 12px; /* Some padding */ 
+    /*border: 1px solid #ccc; /* Gray border */
+   /* border-radius: 4px; /* Rounded borders */
+    /*box-sizing: border-box; /* Make sure that padding and width stays in place */
+    /*margin-top: 6px; /* Add a top margin */
+    /*margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(102, 128, 142);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px 1px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: rgb(44, 77, 95);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    /*border: 1px solid black;*/
+    text-align: left;
+    font-family: Georgia;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 400px;
+    float: left;
+  }
+  
+.mail_design {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 14px;
+}
+
+.block_right {
+    width: 70%;
+    height: inherit;
+    overflow: auto;
+    float: right;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+.push_left {
+    /*border: 1px solid black;*/
+    float: left;
+}
+
+.push_right {
+    /*border: 1px solid black;*/
+    float: right;
+}
+
+.push_top {
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+
+.colomn {
+    /*border: 1px solid black;*/
+    white-space: nowrap;
+    font-size: 0;    
+    background-color: rgb(133, 174, 178, 0.3);
+    width: 80%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.colomn-item {
+    white-space: normal;
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;    
+    margin-left: 3%;
+    margin-right: 5%;
+    font-size: 14px;
+}
+
+.colomn.colomn-item:last-child {
+    margin-right: 0;
+}
+
+
+
+
+.description {
+    text-align: center;
+    background-color: rgb(133, 174, 178, 0.3);
+    width: 80%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+}
+
+.rounded {
+    border-radius: 50%;
+    margin: 20px 20px 20px 50px;
+    width: 40%;
+    height: inherit;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.link_line {
+    text-decoration: underline;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight:lighter;
+    color: rgb(44, 77, 95);
+    padding-right: 20px;
+}
+
+p {
+    text-align:justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight:lighter;
+    color: rgb(44, 77, 95);
+}
+
+
+h1 {
+    align-items: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:large;
+    font-size:xx-large;
+    color: rgb(44, 77, 95);
+    margin: 0 0 0 0;
+}
+
+h2 {
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:lighter;
+    color: rgb(44, 77, 95);
+    margin: 0 0 0 0;
+}
+
+h3 {
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: rgb(44, 77, 95);
+}
+
+h4 {
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+    color: rgb(44, 77, 95);
+    float: left;
+    margin: 0 0 0 0;
+}
+
+h5 {
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color: rgb(44, 77, 95);
+    float: left;
+    margin: 10px 0 0 5px;
+}
+h6 {
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(44, 77, 95);
+    float: left;
+    font-size:x-small;
+    margin: 10px 0 5px 5px;
+}
+
+
+.block_text {
+    margin: 20px 50px 20px 0px;
+    width: 40%;
+    height: inherit;
+    float: right;
+}
+
+
+.des{
+    
+    text-align: center;
+    background-color: rgb(133, 174, 178, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    height: 320px;
+    width: 80%;
+    margin-bottom: 50px;
+   
+
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+td, th {
+    border: 3px solid rgb(102, 128, 142);
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.title_of_table {
+    border: 5px solid rgb(102, 128, 142);
+    text-align: center;
+}
+
+tr:hover td {
+    color: rgb(107, 168, 182, 0.9);
+}
+
+.avatar_round {
+    border-radius: 50%;
+    margin: 20px 20px 20px 50px;
+    width: 70px;
+    height: 70px;
+}
+
+.article_title {
+    float: left;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.article_second_title {
+    float: left;
+    width: 70%;
+    margin-left: 90px;
+}
+
+.article_data {
+    float:right;
+    width: 20%;
+}
+
+.description_article {
+    text-align: center;
+    background-color: rgb(133, 174, 178, 0.3);
+    width: 80%;
+    height: auto;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+
+}
+
+.article_data_border {
+    border-left: 2px rgba(139, 161, 173) solid;
+    margin: 0px 0px 0 0;
+    padding: 0 0px 9px 0;
+    border-collapse: collapse;
+}
+
+.article_title_border {
+    border-bottom: 2px rgba(139, 161, 173) solid;
+    margin: 0px 0px 50px 0;
+    padding: 0 0px 105px 0;
+    border-collapse: collapse;
+}
+.article_text{
+    width: 85%;
+    text-align: justify;
+    margin-left: 70px;
+}
+
+.article_button{
+    border: 2px rgba(139, 161, 173) solid;
+    float: left;
+    width: 20%;
+    margin-right: 20PX;
+}
+
+.icon_left_side{
+    font-size: small;
+    border-left: 2px rgba(139, 161, 173) solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+}
+.article_low_row{
+    margin-left: 70px;
+    width: 85%;
+}
+
+.article_down_right_icons{
+    float: right;
+}
+
+.city_photo {
+    width: 85%;
+    margin: 0 0 0 20px;
+    height: 300px;
+}
+.name_link {
+    width: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.data_indent {
+    margin: 0 0 0 20px;
+}
+
+.next_previous_buttonts{
+    width: 60%;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.page_button{
+    border: 2px rgba(139, 161, 173) solid;
+    float: left;
+    width: 15%;
+    margin-right: 20PX;
+}
+
+footer {
+    text-align: center;    
+    position:fixed;
+    bottom:0;
+    width: 100%;;
+}
+
+.block_border {
+    border: 2px black solid;
+}
